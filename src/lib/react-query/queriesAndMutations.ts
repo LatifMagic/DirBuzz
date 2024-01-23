@@ -51,6 +51,7 @@ export const useSigOutAccount = () => {
 export const useGetPosts = () => {
   return useInfiniteQuery({
     queryKey: [QUERY_KEYS.GET_INFINITE_POSTS],
+    /* eslint-disable @typescript-eslint/no-explicit-any */
     queryFn: getInfinitePosts as any,
     getNextPageParam: (lastPage: any) => {
       // If there's no data, there are no more pages.
