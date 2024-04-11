@@ -11,7 +11,7 @@ const Topbar = () => {
 
   useEffect(() => {
     if (isSuccess) navigate(0);
-  }, [isSuccess, navigate]);
+  }, [isSuccess]);
 
   return (
     <section className="topbar">
