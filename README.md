@@ -41,19 +41,21 @@ DirBuzz is a dynamic social media application built using React and Appwrite, of
 3. Create a `.env` file in the root directory.
 4. Add the following variables to the `.env` file:
 
+```plaintext
 VITE_APPWRITE_URL=
 VITE_APPWRITE_PROJECT_ID=
-VITE_APPWRITE_DATABASE_ID=
 VITE_APPWRITE_STORAGE_ID=
-VITE_APPWRITE_USER_COLLECTION_ID=
-VITE_APPWRITE_POST_COLLECTION_ID=
+VITE_APPWRITE_DATABASE_ID=
 VITE_APPWRITE_SAVES_COLLECTION_ID=
+VITE_APPWRITE_POST_COLLECTION_ID=
+VITE_APPWRITE_USER_COLLECTION_ID=
+```
 
 Replace the placeholder values with your actual Appwrite credentials. You can obtain these credentials by signing up on the Appwrite website.
 
 5. Install dependencies using `npm install`.
 6. Start the application with `npm start`.
 
-## Dive in 
+## Screenshots
 ![people](https://github.com/LatifMagic/DirBuzz/assets/166524832/d9470f93-26d8-4cbf-a1d9-d22531f3f820)
 ![create a post](https://github.com/LatifMagic/DirBuzz/assets/166524832/af83f7d7-7e0d-4c85-a0b0-d22584e5368f)
