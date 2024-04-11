@@ -1,30 +1,59 @@
-# React + TypeScript + Vite
+# DirBuzz Social Media App
+![home](https://github.com/LatifMagic/DirBuzz/assets/166524832/f622f4e5-8dd3-4733-b8ce-55cfd69d8ae8)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Explore the app here: [DirBuzz](https://dir-buzz-one.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## Expanding the ESLint configuration
+DirBuzz is a dynamic social media application built using React and Appwrite, offering a range of features to enhance your social networking experience.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- User authentication: Login and signup capabilities.
+- Post viewing: Enjoy infinite scroll for seamless browsing.
+- Post management: Create, edit, and delete posts as needed.
+- Explore posts: Discover a wide range of engaging content.
+- User profiles: View and connect with other users.
+- Post interactions: Like and save posts for future reference.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Screenshots
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![signup](https://github.com/LatifMagic/DirBuzz/assets/166524832/794035e7-4307-4f14-b871-07ca02011235)
+![explore](https://github.com/LatifMagic/DirBuzz/assets/166524832/1eec24d5-0d1a-42d4-a9eb-71770a375bf6)
+
+
+## Technologies Used
+
+- React.js
+- Appwrite (Authentication, Realtime Database, Storage)
+- Typescript
+- Tailwind
+- React Query
+- React Router
+- Shadcn
+- React-toast
+
+## Getting Started
+
+1. Clone the repository.
+2. Set up Firebase for backend services.
+3. Create a `.env` file in the root directory.
+4. Add the following variables to the `.env` file:
+
+VITE_APPWRITE_URL=
+VITE_APPWRITE_PROJECT_ID=
+VITE_APPWRITE_DATABASE_ID=
+VITE_APPWRITE_STORAGE_ID=
+VITE_APPWRITE_USER_COLLECTION_ID=
+VITE_APPWRITE_POST_COLLECTION_ID=
+VITE_APPWRITE_SAVES_COLLECTION_ID=
+
+Replace the placeholder values with your actual Appwrite credentials. You can obtain these credentials by signing up on the Appwrite website.
+
+5. Install dependencies using `npm install`.
+6. Start the application with `npm start`.
+
+## Dive in 
+![people](https://github.com/LatifMagic/DirBuzz/assets/166524832/d9470f93-26d8-4cbf-a1d9-d22531f3f820)
+![create a post](https://github.com/LatifMagic/DirBuzz/assets/166524832/af83f7d7-7e0d-4c85-a0b0-d22584e5368f)
